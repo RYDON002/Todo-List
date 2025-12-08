@@ -1,0 +1,44 @@
+ body {
+        font-family: arial;
+    }
+
+    p{
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    #myDiv,
+    .wrapper {
+        display: grid;
+        grid-template-columns: 180px 140px 80px;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .wrapper{
+        align-items: stretch;
+    }
+
+    #myInput,
+    #dateTodo{
+        font-size: 15px;
+        padding: 6px;
+        border-radius: 5px;
+        border: 1px solid grey;
+    }
+
+    #myButton{
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 2px;
+        font-size: 17px;
+    }
+
+    .myBtn{
+        background-color: darkred;
+        color: white;
+        border: none;
+        padding: 7px;
+        border-radius: 2px;
+    }
